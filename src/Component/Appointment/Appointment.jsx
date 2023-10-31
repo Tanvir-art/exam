@@ -3,12 +3,12 @@ import './Appointment.css'
 const Appointment = () => { 
   return (
     <div className='bgImg flex flex-col md:flex-col lg:flex-row  items-center' id='appointment'>
-        <div className='text-white md:pl-20 text-center md:text-center lg:text-left'>
+        <div className='text-white md:pl-20 text-center md:text-center lg:text-left' data-aos="fade-up-left">
             <h2 className='text-2xl md:text-4xl lg:text-6xl font-bold pt-6'>We care for you</h2>
             <h2 className='text-2xl font-bold py-4'>Medical Services That You Can Trust.</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus minus commodi nisi eius. Odit, aliquam omnis soluta delectus nulla nihil!</p>
         </div>
-    <div className="text-black ">
+    <div className="text-black " data-aos="zoom-out-down">
   <div className="container px-5 py-24">
     <div className="lg:w-1/2 md:w-2/3 mx-auto bg-[#fff] rounded p-6">
       <div className="flex flex-wrap -m-2 mx-auto">

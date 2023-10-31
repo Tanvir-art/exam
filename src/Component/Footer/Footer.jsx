@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 import { BsFacebook, BsLinkedin, BsInstagram, BsYoutube } from 'react-icons/bs';
 const Footer = () => {
   return (
@@ -12,14 +13,32 @@ const Footer = () => {
   </nav> 
   <nav>
     <header className="footer-title">Company</header> 
-    <a className="link link-hover">Appointment</a> 
-    <a className="link link-hover">About Us</a> 
-    <a className="link link-hover">Service</a> 
-    <a className="link link-hover">Testimonial</a> 
-    <a className="link link-hover">Price</a> 
-    <a className="link link-hover">Cta</a>
-    <a className="link link-hover">Team</a>
-    <a className="link link-hover">Contact</a>
+    <ul>
+    <li>
+              <HashLink to="#appointment">Appointment</HashLink>
+            </li>
+            <li>
+              <HashLink to="#about">About Us</HashLink>
+            </li>
+            <li>
+              <HashLink to="#service">Service</HashLink>
+            </li>
+            <li>
+              <HashLink to="#testimonial">Testimonial</HashLink>
+            </li>
+            <li>
+              <HashLink to="#price">Price</HashLink>
+            </li>
+            <li>
+              <HashLink to="#cta">Cta</HashLink>
+            </li>
+            <li>
+              <HashLink to="#team">Team</HashLink>
+            </li>
+            <li>
+              <HashLink to="#contact">Contact</HashLink>
+            </li>
+            </ul>
   </nav> 
   <nav>
     <header className="footer-title">Social</header> 

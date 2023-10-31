@@ -14,11 +14,11 @@ const About = () => {
         </p>
       </div>
       <div className="flex flex-col md:flex-col lg:flex-row justify-center mt-20">
-        <div className="flex-1 ml-10 mb-10">
+        <div className="flex-1 ml-10 mb-10"  data-aos="fade-left">
           <img className="rounded" height={300} src="/image/about.jpg" alt="" />
         </div>
 
-        <div className="flex-1 flex items-center text-gray-700 mx-10">
+        <div className="flex-1 flex items-center text-gray-700 mx-10"  data-aos="fade-right">
           <div>
             <p>How We Work</p>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold py-4">

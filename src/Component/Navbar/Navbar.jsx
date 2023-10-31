@@ -27,18 +27,33 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-neutral text-neutral-content rounded-box w-52"
             >
-              <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>About Us</a>
-              </li>
-              <li>
-                <a>Contact</a>
-              </li>
+            <li>
+              <HashLink to="#appointment">Appointment</HashLink>
+            </li>
+            <li>
+              <HashLink to="#about">About Us</HashLink>
+            </li>
+            <li>
+              <HashLink to="#service">Service</HashLink>
+            </li>
+            <li>
+              <HashLink to="#testimonial">Testimonial</HashLink>
+            </li>
+            <li>
+              <HashLink to="#price">Price</HashLink>
+            </li>
+            <li>
+              <HashLink to="#cta">Cta</HashLink>
+            </li>
+            <li>
+              <HashLink to="#team">Team</HashLink>
+            </li>
+            <li>
+              <HashLink to="#contact">Contact</HashLink>
+            </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-2xl font-bold">DoctorService</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu-horizontal px-1 gap-6">
@@ -69,7 +84,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Login</a>
+          <a className="btn">Appointment</a>
         </div>
       </div>
     </div>

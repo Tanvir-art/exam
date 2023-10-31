@@ -12,7 +12,7 @@ const Team = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-10">
-        <div className="parent card card-compact bg-base-100 shadow-xl">
+        <div className="parent card card-compact bg-base-100 shadow-xl"  data-aos="flip-right">
           <figure>
             <img src="/image/d1.jpg" alt="doctor" />
           </figure>
@@ -36,7 +36,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-xl"  data-aos="flip-right">
           <figure>
             <img src="/image/d2.jpg" alt="doctor" />
           </figure>
@@ -60,7 +60,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-xl"  data-aos="flip-left">
           <figure>
             <img src="/image/d3.jpg" alt="doctor" />
           </figure>
@@ -84,7 +84,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-xl"  data-aos="flip-left">
           <figure>
             <img src="/image/d4.jpg" alt="doctor" />
           </figure>

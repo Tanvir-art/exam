@@ -12,7 +12,7 @@ const Price = () => {
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-14 mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-10">
-            <div className="p-4  shadow-xl">
+            <div className="p-4  shadow-xl"  data-aos="flip-left">
               <div className="h-full p-6 rounded-lg border-2 border-[#439FE0] flex flex-col relative overflow-hidden">
                 <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
                   Starter
@@ -152,7 +152,7 @@ const Price = () => {
               </div>
             </div>
 
-            <div className="p-4  shadow-xl">
+            <div className="p-4  shadow-xl"  data-aos="flip-left">
               <div className="h-full p-6 rounded-lg border-2 border-[#439FE0] flex flex-col relative overflow-hidden">
                 <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
                   Professional
@@ -292,7 +292,7 @@ const Price = () => {
               </div>
             </div>
 
-            <div className="p-4  shadow-xl">
+            <div className="p-4  shadow-xl"  data-aos="flip-left">
               <div className="h-full p-6 rounded-lg border-2 border-[#439FE0] flex flex-col relative overflow-hidden">
                 <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
                   Institution

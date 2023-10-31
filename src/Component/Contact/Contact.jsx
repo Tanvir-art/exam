@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section className="text-gray-600 mt-20 relative" id='contact'>
+    <section className="text-gray-600 mt-20 relative" id='contact'  data-aos="flip-left">
       <div className="absolute inset-0 bg-gray-300">
         <iframe
           width="100%"
